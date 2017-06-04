@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FBO">
+      <UniqueIdentifier>{5760dd31-f5db-48d8-b117-3565de9aeacf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image2D">
+      <UniqueIdentifier>{3363d2a1-5e70-4bd5-b31c-6a584dab3826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScreenVAO">
+      <UniqueIdentifier>{db3832a9-772d-488a-87ec-3a3ed4b8e34d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyApp">
+      <UniqueIdentifier>{d923785b-aaea-4477-8bf3-9da70a78e447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderProgram">
+      <UniqueIdentifier>{0964ccc3-7494-4a69-8a0d-c9d23348d5ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GPUState">
+      <UniqueIdentifier>{2f39e807-1b7b-4ec3-b549-d46f9497e025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Uniforms">
+      <UniqueIdentifier>{bb38e643-5ce4-4fd8-b1a4-c8f03a188b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{5e0f5b7b-a43a-4a31-823d-5e5ee150ea7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{3155462a-5cb3-403b-b912-4c7f79b3aeff}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{4027e0da-4c2e-49a9-9efb-9b8021fefb21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileIO">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="gStuff">
+      <UniqueIdentifier>{6c51b270-c1a7-4df2-a3e4-a5c57f618e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\DebugWindow">
+      <UniqueIdentifier>{8030a9c0-9abd-4641-a4cc-04837ddd1b50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\TextEditor">
+      <UniqueIdentifier>{1d4d95e7-1084-4c3c-a1b3-55a2183db625}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="FBO.cpp">
+      <Filter>FBO</Filter>
+    </ClCompile>
+    <ClCompile Include="MyApp.cpp">
+      <Filter>MyApp</Filter>
+    </ClCompile>
+    <ClCompile Include="Image2D.cpp">
+      <Filter>Image2D</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProg.cpp">
+      <Filter>ShaderProgram</Filter>
+    </ClCompile>
+    <ClCompile Include="GPUState.cpp">
+      <Filter>GPUState</Filter>
+    </ClCompile>
+    <ClCompile Include="Uniforms.cpp">
+      <Filter>Uniforms</Filter>
+    </ClCompile>
+    <ClCompile Include="gCamera.cpp">
+      <Filter>gStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenVAO.cpp">
+      <Filter>ScreenVAO</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_sdl_gl3.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="gTimer.cpp">
+      <Filter>gStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionChooser.cpp">
+      <Filter>GUI\DebugWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="TextEditor.cpp">
+      <Filter>GUI\TextEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="TextEditor_build.cpp">
+      <Filter>GUI\TextEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="TextEditor_fileio.cpp">
+      <Filter>GUI\TextEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="TextEditor_keymap.cpp">
+      <Filter>GUI\TextEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="TextEditor_render.cpp">
+      <Filter>GUI\TextEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugWindow_DataVisual.cpp">
+      <Filter>GUI\DebugWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugWindow_Iteration_Switches.cpp">
+      <Filter>GUI\DebugWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugWindow_render.cpp">
+      <Filter>GUI\DebugWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="TextEditor_CSG.cpp">
+      <Filter>GUI\TextEditor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FBO.h">
+      <Filter>FBO</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenVAO.h">
+      <Filter>ScreenVAO</Filter>
+    </ClInclude>
+    <ClInclude Include="MyApp.h">
+      <Filter>MyApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Image2D.h">
+      <Filter>Image2D</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProg.h">
+      <Filter>ShaderProgram</Filter>
+    </ClInclude>
+    <ClInclude Include="GPUState.h">
+      <Filter>GPUState</Filter>
+    </ClInclude>
+    <ClInclude Include="Uniforms.h">
+      <Filter>Uniforms</Filter>
+    </ClInclude>
+    <ClInclude Include="gCamera.h">
+      <Filter>gStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="GLCHECK.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_sdl_gl3.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="gTimer.h">
+      <Filter>gStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugWindow.h">
+      <Filter>GUI\DebugWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionChooser.h">
+      <Filter>GUI\DebugWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="TextEditor.h">
+      <Filter>GUI\TextEditor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

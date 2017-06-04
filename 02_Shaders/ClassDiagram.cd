@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CMyApp">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="CMyApp::__unnamed_struct_001d_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MyApp.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQgBIAAACBggEAAAACAAAAAAAAAEAQAAJgCgAGAQAA=</HashCode>
+      <FileName>MyApp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FBO">
+    <Position X="11" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEABAAAAAIBIAAAAAAAgIAAAAAAAAAAAQIAgAAAAAAQ=</HashCode>
+      <FileName>FBO.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gCamera">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAIAAAACAgAAAAAAAAABAATJNEAgAQAACYAIGAAAI=</HashCode>
+      <FileName>gCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPUState">
+    <Position X="9.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEgAAEAABCgAAAAASAAAAAAACAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>GPUState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gTimer">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQgAAECAAAAAAAAAAAAAABAAACBAAISAAAAAAAAA=</HashCode>
+      <FileName>gTimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Image2D">
+    <Position X="11" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAQAUAAAAQAAAAAQYAhgAAAAAgA=</HashCode>
+      <FileName>Image2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenVAO">
+    <Position X="7.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAEAAAAIAgAAAAAAAAAAAAAAiAAAAAAA=</HashCode>
+      <FileName>ScreenVAO.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShaderProg">
+    <Position X="9.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIAAMEgQCMAAAAAIAIIAAAAICAAAAAAAACgQAAACIE=</HashCode>
+      <FileName>ShaderProg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Uniforms">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Uniforms::ALGORITHM" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Uniforms.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="Uniforms::__unnamed_struct_0025_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Uniforms.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Uniforms::__unnamed_struct_0025_2" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Uniforms.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Uniforms::__unnamed_struct_0025_3" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Uniforms.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Uniforms::__unnamed_struct_0025_4" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Uniforms.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Uniforms::__unnamed_struct_0025_5" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Uniforms.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Uniforms::__unnamed_struct_0025_8" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Uniforms.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Uniforms::__unnamed_struct_0025_9" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Uniforms.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAkAIAAQAAACAgAgAhAgABAAAQAgAAABAIAA=</HashCode>
+      <FileName>Uniforms.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GUI::DebugWindow">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="GUI::DebugWindow::__unnamed_struct_0002_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DebugWindow.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="GUI::DebugWindow::__unnamed_struct_0002_3" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DebugWindow.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="GUI::DebugWindow::__unnamed_struct_0002_4" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DebugWindow.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="GUI::DebugWindow::__unnamed_struct_0002_5" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DebugWindow.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="GUI::DebugWindow::__unnamed_struct_0002_6" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DebugWindow.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="GUI::DebugWindow::__unnamed_struct_0002_8" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DebugWindow.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="GUI::DebugWindow::__unnamed_struct_0002_9" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DebugWindow.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="GUI::DebugWindow::__unnamed_struct_0002_10" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DebugWindow.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QABGAAEQBgAgAIAAAgAJQAMAAgAADAYCBRAAAAEAIIE=</HashCode>
+      <FileName>DebugWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GUI::FunctionChooser">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEQAEAAKEAAEEhAAAAAAAEAAAAAIgoAAQAAAIAA=</HashCode>
+      <FileName>FunctionChooser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GUI::TextEditor">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="GUI::TextEditor::__unnamed_struct_0023_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TextEditor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="GUI::TextEditor::__unnamed_struct_0023_2" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TextEditor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="GUI::TextEditor::__unnamed_struct_0023_3" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TextEditor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="GUI::TextEditor::__unnamed_struct_0023_4" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TextEditor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="GUI::TextEditor::__unnamed_struct_0023_5" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TextEditor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="GUI::TextEditor::__unnamed_struct_0023_8" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TextEditor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="GUI::TextEditor::__unnamed_struct_0023_9" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TextEditor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QEIggJBABCBgoEIAgABoCYDACAgQKAAMBBBBACFCIIE=</HashCode>
+      <FileName>TextEditor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
